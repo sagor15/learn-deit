@@ -183,3 +183,101 @@ span {
   margin-top: 12px;
   font-weight: 400;
 }
+
+/*----------------------- responsive site build ---------------------*/
+@media (max-width: 400px) {
+  .container {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-left: 16%;
+  }
+  h3 {
+    font-size: 101px;
+    line-height: 1.3;
+    margin-top: 75px;
+    font-weight: 700;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .left {
+    width: 100%;
+    margin-left: 324px;
+    margin-bottom: 115px;
+  }
+  h6 {
+    margin-bottom: 50px;
+  }
+  .btn {
+    font-size: 32px;
+    padding: 32px 134px;
+  }
+  .right {
+    width: 100%;
+    margin-left: 36%;
+  }
+  .right img {
+    width: 809px;
+  }
+  .middle-container {
+    display: block;
+    background-image: url(img/bg.png);
+    width: 100%;
+    height: 731px;
+    margin-left: 51px;
+  }
+  .left_1 img {
+    width: 518px;
+    height: 678px;
+    margin-top: 52px;
+    margin-left: 67%;
+    z-index: 1;
+  }
+  .text-container {
+    width: 573px;
+    margin-left: 225px;
+    margin-top: 1000px;
+  }
+  .text-content h2 {
+    text-align: center;
+    font-size: 78px;
+    margin-top: 22px;
+  }
+  .text-content p {
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 31px;
+  }
+  .right-1 {
+    width: 100%;
+    margin-left: 310px;
+  }
+  .right-1 h2 {
+    text-align: center;
+    font-size: 83px;
+  }
+  .right-1 p {
+    margin-top: 20px;
+    font-size: 23px;
+    margin-left: 21px;
+    width: 276px;
+  }
+  .last-content {
+    display: block;
+  }
+  .last-container {
+    margin-left: 350px;
+  }
+  .box {
+    width: 286px;
+    height: 386px;
+    padding: 20px 10px;
+    margin: 15px;
+    border-radius: 19px;
+    background: #f7f7f773;
+    text-align: center;
+    box-shadow: 10px 10px 15px #d8d5d5, -10px -10px 15px #f1eded;
+    overflow: hidden;
+  }
+}
