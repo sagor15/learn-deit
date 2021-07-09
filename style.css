@@ -38,10 +38,13 @@ h6 {
 .btn {
   border: none;
   padding: 18px 119px;
-  background: linear-gradient(45deg, rgb(252, 147, 74), rgb(253, 75, 46));
+  background: linear-gradient(
+45deg
+, rgb(252, 147, 74), rgb(253, 75, 46));
   border-radius: 48px;
   color: white;
   font-size: 15px;
+  margin-top: 42px;
 }
 .right img {
   width: 400px;
@@ -210,6 +213,7 @@ span {
   .btn {
     font-size: 32px;
     padding: 32px 134px;
+    margin-left: -35px;
   }
   .right {
     width: 100%;
@@ -239,39 +243,45 @@ span {
   }
   .text-content h2 {
     text-align: center;
-    font-size: 78px;
+    font-size: 119px;
     margin-top: 22px;
+    width: 700px;
+    margin-left: -51px;
   }
   .text-content p {
-    width: 100%;
-    font-size: 28px;
+    width: 700px;
+    font-size: 59px;
     text-align: center;
     margin-top: 21px;
     margin-bottom: 31px;
+    margin-left: -30px;
   }
   .right-1 {
     width: 100%;
     margin-left: 310px;
   }
   .right-1 h2 {
-    text-align: center;
-    font-size: 83px;
+    /* text-align: center; */
+    font-size: 137px;
+    margin-left: -110px;
   }
   .right-1 p {
     margin-top: 20px;
-    font-size: 23px;
-    margin-left: 21px;
-    width: 276px;
+    font-size: 40px;
+    margin-left: -28px;
+    width: 458px;
   }
   .last-content {
     display: block;
   }
   .last-container {
     margin-left: 350px;
-  }
+    width: 1141px;
+    margin: 0 auto;
+}
   .box {
-    width: 286px;
-    height: 386px;
+    width: 500px;
+    height: 600px;
     padding: 20px 10px;
     margin: 15px;
     border-radius: 19px;
@@ -279,5 +289,11 @@ span {
     text-align: center;
     box-shadow: 10px 10px 15px #d8d5d5, -10px -10px 15px #f1eded;
     overflow: hidden;
+  }
+  .box img {
+    width: 480px;
+    margin-left: -1px;
+    margin-top: -10px;
+    border-radius: 22px;
   }
 }
